@@ -18,7 +18,7 @@ import com.infusion.trading.matching.matcher.OrderFillService;
 import com.infusion.trading.matching.orderbook.OrderBook;
 import com.infusion.trading.matching.orderbook.TestOrderBookService;
 
-@Component
+//@Component
 public class TestHelper {
 
 	@Autowired
