@@ -19,6 +19,7 @@ public class MarketOrderSteps {
 	
 	@Given("^The order book looks like this before the trade is placed:$")
 	public void setupOrderBook(List<LimitOrder> orders) {
+		System.out.println("TestHelper: " + testHelper);
 		testHelper.setupOrderBook(orders);
 	}
 
